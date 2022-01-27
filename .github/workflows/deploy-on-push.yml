@@ -4,7 +4,7 @@ on: [push]
 jobs:
   deploy-app:
     runs-on: ubuntu-latest
-      steps:
+    steps:
     - name: 54.209.202.5
     uses: actions/checkout@v2
     - name: index.html
